@@ -1,5 +1,5 @@
 # BEEM
-## NBA Prospect Projection System (Bagging Error Estimate using Meta-Features)
+## NBA Prospect Projection System (Bagging Error Estimate using Meta-Features) Version 1
 
 BEEM generates a linear regression using a combination of box-score data and meta-features, and then adjusts the estimates based on error analysis by using these meta-features.
 
