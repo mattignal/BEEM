@@ -7,9 +7,11 @@ BEEM generates a linear regression primarily using box-score data, and then adju
 
 I include standardized pre-draft statistics, beginning in 2003, from international play, national tournaments, and the NCAA. I use RealGM's database for box-score statistics, DraftExpress' pre-draft measurements and combine results, and hoop-math.com's play-by-play statistics for post-2012 NCAA prospects.
 
+## Features
+
 Linear Features: Age, points, true shooting %, rebounds, steals, blocks, free throw rate, assists, assist-to-turnover ratio, free throw percentage, fouls, and height divided by positional average height.
 
-Bagging Features: SpeedxAgility, No-StepxStep Vertical, height, wingspan to height ratio, weight to height ratio, outside shooting score, defense score, inside scoring score, playmaking score, free throw rate, and the linear prediction.
+Bagging (on the error) Features: SpeedxAgility, No-StepxStep Vertical, height, wingspan to height ratio, weight to height ratio, outside shooting score, defense score, inside scoring score, playmaking score, free throw rate, and the linear prediction.
 
 ## Results
 
