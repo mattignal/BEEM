@@ -9,9 +9,9 @@ I include standardized pre-draft statistics, beginning in 2003, from internation
 
 ## Features
 
-Linear Features: Age, points, true shooting %, rebounds, steals, blocks, free throw rate, assists, assist-to-turnover ratio, free throw percentage, fouls, and height divided by positional average height.
+**Linear Features**: Age, points, true shooting %, rebounds, steals, blocks, free throw rate, assists, assist-to-turnover ratio, free throw percentage, fouls, and height divided by positional average height.
 
-Bagging (on the error) Features: SpeedxAgility, No-StepxStep Vertical, height, wingspan to height ratio, weight to height ratio, outside shooting score, defense score, inside scoring score, playmaking score, free throw rate, and the linear prediction.
+**Bagging (on the error) Features**: SpeedxAgility, No-StepxStep Vertical, height, wingspan to height ratio, weight to height ratio, outside shooting score, defense score, inside scoring score, playmaking score, free throw rate, and the linear prediction.
 
 ## Results
 
