@@ -27,7 +27,7 @@ For an average draft rank value of 45.1.
 
 3/5/17: New linear feature, Height divided by positional average height, improves DRV from 44.8 to 45.1
 
-Next update (March 2017) will include NCAA conference statistics standardization (mid-major vs. power conference) and include 2016-2017 season.
+Next update (April 2017) will include NCAA conference statistics standardization (mid-major vs. power conference) and include 2016-2017 season. Potention inclusion: stats-per-positional average. Might be more enlightening than raw stats.
 
 ### Install
 
