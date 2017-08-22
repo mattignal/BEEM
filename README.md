@@ -1,5 +1,5 @@
 # BEEM
-## NBA Prospect Projection System (Bagging Error Estimate using Meta-Features) Version 2
+## NBA Prospect Projection System (Bagging Error Estimate using Meta-Features) Version 3
 
 ## Summary
 
@@ -9,17 +9,21 @@ I include standardized pre-draft statistics, beginning in 2003, from internation
 
 ## Features
 
-**Linear Features**: Age, points, true shooting %, rebounds, steals, blocks, free throw rate, assists, assist-to-turnover ratio, free throw percentage, fouls, and height divided by positional average height.
+**Linear Features**: Age, points, true shooting %, rebounds, steals, blocks, free throw rate, assists, assist-to-turnover ratio, free throw percentage, and fouls.
 
-**Bagging (on the error) Features**: SpeedxAgility, No-StepxStep Vertical, height, wingspan to height ratio, weight to height ratio, outside shooting score, defense score, inside scoring score, playmaking score, free throw rate, and the linear prediction.
+**Bagging (on the error) Features**: (see EDA for creation details) 1) 'LinearPred', 'Age', 'Skill', 'Score', 'Ath', 'Mix', 'Mix2', 'Mix3', 'WeightFlag', 'Max_Vert', 'Move_adj', 'DBPM', 'OBPM', 'Height' 
+2)'LinearPred', 'Age', 'WHr', 'WtHr', 'WeightFlag', 'OBPM', 'DBPM', 'Max_Vert', 'Agility', 'Height'
 
 ## Results
 
-Using scorer '[Draft Rank Value](http://www.tothemean.com/2015/07/26/how-to-compare-draft-rankings.html)' by Jesse Fischer, the following results are acheived.
+Using scorer '[Draft Rank Value](http://www.tothemean.com/2015/07/26/how-to-compare-draft-rankings.html)' by Jesse Fischer, the following results are acheived:
 
-![results](https://github.com/matthewignal/BEEM/blob/master/Drafted.png)
+![results](https://github.com/mattignal/BEEM/blob/master/Comparison.png)
 
-For an average draft rank value of 45.1.
+For an average draft rank value of 47.14. (Actual GM picks: 46.23)
+
+#### 2017 Predictions
+![2017](https://github.com/mattignal/BEEM/blob/master/BEEM2017.png)
 
 # Updates
 
@@ -27,7 +31,9 @@ For an average draft rank value of 45.1.
 
 3/5/17: New linear feature, Height divided by positional average height, improves DRV from 44.8 to 45.1
 
-Next update (August 2017) will include NCAA conference statistics standardization (mid-major vs. power conference) and include 2016-2017 season.
+8/22/17: Removed Height divided by positional average, re-did translations, added another bagging error estimate and combined them, changed meta-features. Improves DRV from 45.1 to 47.14
+
+Future: Positional clustering, outlier boosting, return to "meta"-skill scores
 
 ### Install
 
